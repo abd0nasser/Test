@@ -1,4 +1,4 @@
-/* /* /* * {
+/* /* /* /* * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -275,7 +275,7 @@ body {
 }
 
 /* موبايل فقط */
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .nav-links,
   .contact-btn {
     display: none;
@@ -284,8 +284,8 @@ body {
   .menu-icon {
     display: block;
   }
-}  */
-  /* #menu-toggle {
+}  
+   #menu-toggle {
   display: none;
 }
 
@@ -297,7 +297,7 @@ body {
 }
 
 /* موبايل */
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
 
   .navbar {
     position: relative;
@@ -336,9 +336,9 @@ body {
   } */
 
   /* لما المنيو تتفتح */
-  /* #menu-toggle:checked ~ .nav-links {
+   #menu-toggle:checked ~ .nav-links {
     transform: translateY(0);
     opacity: 1;
   }
-}  */
+} 
 
