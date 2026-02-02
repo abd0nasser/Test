@@ -1,4 +1,4 @@
-/* /* /* /* * {
+ {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -74,7 +74,7 @@ button:hover {
 }
 
 /* Responsive */
-/* @media (max-width: 480px) {
+ @media (max-width: 480px) {
   .row {
     flex-direction: column;
   }
@@ -83,8 +83,8 @@ button:hover {
     width: 100%;
     margin: 10px;
   }
-} */ 
-/* 
+} 
+ 
 body {
   background-color: aqua;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 /* إزالة الشكل الافتراضي */
-/* .newsletter input[type="checkbox"] {
+.newsletter input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
   width: 14px;
@@ -106,10 +106,10 @@ body {
   background: transparent;
   cursor: pointer;
   position: relative;
-} */
+} 
 
 /* لما يتعلم */
-/* .newsletter input[type="checkbox"]:checked::after {
+ .newsletter input[type="checkbox"]:checked::after {
   content: "✓";
   position: absolute;
   top: -2px;
@@ -120,11 +120,11 @@ body {
 
 .newsletter label {
   cursor: pointer;
- */
+}
 
 
 
-/* * {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -136,10 +136,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-} */
+} 
 
 /* logo */
-/* .logo {
+ .logo {
   background: #1f5b3f;
   color: #fff;
   padding: 10px 22px;
@@ -148,7 +148,7 @@ body {
 }
 
 /* links container */
-/* .nav-links {
+ .nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
@@ -164,7 +164,7 @@ body {
 }
 
 /* contact button */
-/* .contact-btn {
+ .contact-btn {
   background: #e6f3c8;
   color: #1f5b3f;
   padding: 12px 28px;
@@ -177,9 +177,9 @@ body {
 .image {
   width: 80px;
   height: 80px;
-} */ 
+} 
 
-/* .nav-toggle {
+ .nav-toggle {
   display: none;
   font-size: 28px;
   cursor: pointer;
@@ -187,7 +187,7 @@ body {
 }
 
 /* موبايل */
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .nav-links {
     position: fixed;
     top: 0;
@@ -204,9 +204,9 @@ body {
 
   .nav-links.active {
     right: 0;
-  } */ 
+  } 
 
-  /* .nav-toggle {
+  .nav-toggle {
     display: block;
   }
 
@@ -215,9 +215,9 @@ body {
     cursor: pointer;
     margin-top: 40px;
   }
-} */ 
+} 
 
-/* nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
