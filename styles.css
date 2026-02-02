@@ -187,7 +187,7 @@ body {
 }
 
 /* موبايل */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .nav-links {
     position: fixed;
     top: 0;
@@ -275,7 +275,7 @@ nav {
 }
 
 /* موبايل فقط */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .nav-links,
   .contact-btn {
     display: none;
@@ -285,7 +285,7 @@ nav {
     display: block;
   }
 }  
-   #menu-toggle {
+#menu-toggle {
   display: none;
 }
 
@@ -297,7 +297,7 @@ nav {
 }
 
 /* موبايل */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
 
   .navbar {
     position: relative;
@@ -336,7 +336,7 @@ nav {
   } */
 
   /* لما المنيو تتفتح */
-   #menu-toggle:checked ~ .nav-links {
+  `#menu-toggle:checked ~ .nav-links {
     transform: translateY(0);
     opacity: 1;
   }
