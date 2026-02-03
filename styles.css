@@ -1,13 +1,17 @@
- {
+{
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
+:root 
+{
+  --main-color:#eee;
+  --flex-align-item:center ;
+}
 body {
-  background: #eee;
+  background: var(--main-color);
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: var(--flex-align-item);
   justify-content: center;
 }
 
@@ -48,7 +52,7 @@ textarea {
 }
 
 input.error {
-  border-color: #e63946;
+  border-color: var(--main-color);
 }
 
 small {
